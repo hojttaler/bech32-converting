@@ -2,6 +2,8 @@
 
 This library is designed to convert bech32 addresses to hex and vice versa.
 
+You can use any prefix and address, it will match bech32 address on blockchain node.
+
 ## Installation
 
 ```bash
@@ -17,9 +19,9 @@ converter('prefix').toBech32('address')
 
 // Example
 
-converter('eth').toBech32('0x0E3f45Cbfda1C9Eb008Ebc9873F3DBA1d9A86E9D')
-// eth1pcl5tjla58y7kqywhjv88u7m58v6sm5afc6dwn
+converter('eth').toBech32('0xf9e0bd5927557a39e246f88774e6b209389731db')
+// eth1l8st6kf824arncjxlzrhfe4jpyufwvwm5f5cyp
 
-converter('eth').toHex('eth1pcl5tjla58y7kqywhjv88u7m58v6sm5afc6dwn')
-// 0x0E3f45Cbfda1C9Eb008Ebc9873F3DBA1d9A86E9D
+converter('eth').toHex('eth1l8st6kf824arncjxlzrhfe4jpyufwvwm5f5cyp')
+// 0xf9e0bd5927557a39e246f88774e6b209389731db
 ```
