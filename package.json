@@ -1,6 +1,6 @@
 {
   "name": "bech32-converting",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "keywords": ["bech32", "blockchain", "segwit", "hex", "converter"],
   "description": "This library is designed to convert bech32 addresses to hex and vice versa.",
   "main": "lib/bech32-convert.js",
